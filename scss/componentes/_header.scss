@@ -1,0 +1,60 @@
+#logoBazar {
+    width: 20%;
+    height: 20%;
+    min-height: 120px;
+    min-width: 200px;
+}
+
+#navbarNav ul {
+    border-radius: 20px;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-family: 'Fira Sans', sans-serif;
+    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    li {
+
+        a {
+            color: white;
+        }
+    }
+}
+
+@media only screen and (min-width:992px) {
+
+    #navbarNav ul li a:hover {
+        background-color: $color-violeta;
+        transform: scale(1.2);
+        border-radius: 15px;
+    }
+
+}
+
+@media only screen and (max-width:991px) {
+
+    #navbarNav {
+        border: 2px solid $color-violeta;
+        border-radius: 20px;
+        ul {
+            text-align: center;
+            li {
+                width: 100%;
+                font-size: 14px;
+            }
+        }
+    }
+    
+
+}
+
+@media only screen and (max-width:575px) {
+
+    #logoBazar {
+        min-height: 80px;
+        min-width: 150px;
+    }
+
+    #navbarNav ul {
+        font-size: 12px;
+    }
+}
