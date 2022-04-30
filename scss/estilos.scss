@@ -4,8 +4,7 @@
 }
 
 body {
-    background: rgb(242, 217, 243);
-    background: linear-gradient(90deg, rgba(242, 217, 243, 1) 0%, rgba(175, 150, 176, 1) 60%, rgba(143, 86, 148, 1) 100%);
+    background-color: white;
 }
 
 @import "variables";
@@ -16,6 +15,19 @@ body {
 @import "pages/ollas";
 @import "pages/vajilla";
 @import "pages/vasos";
+
+.fondo-index{
+    height: 100%;
+    width: 100%;
+    margin:0;
+    padding: 0;
+    img{
+        margin: 0;
+        padding: 0;
+        height: 100%;
+        width: 100%;
+    }
+}
 
 .titulo {
     text-align: center;
